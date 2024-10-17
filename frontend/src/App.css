@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+th {
+  padding: 3vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0, 0.45);
+}
+
+.modal-content {
+  margin: 10%;
+  margin-top: 15%;
+  padding: 5vh;
+  padding-top: 1vh;
+  color: black;
+  font-weight: 500;
+  background-color: rgb(170, 182, 192);
+  border-radius: 8px;
+}
+
+.close {
+  color: rgb(251, 188, 0);
+  font-size: 50px;
+}
+.close:hover {
+  cursor: pointer;
+}
+.form-content {
+  display: grid;
+  padding-bottom: 1.2vh;
+}
